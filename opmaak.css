@@ -1,0 +1,78 @@
+body { 
+     font-family: "Century Gothic", sans-serif;
+     font-size: 1.3rem;
+}
+
+.container {
+     max-width: 1000px;
+     margin: 0 auto;
+     height: 100%;
+}
+
+a { 
+     text-decoration: none;
+     color: black;
+}
+
+nav li:hover {
+     background: peachpuff;
+}
+
+ul {
+     padding: 0px;
+     margin: 0px 0px 50px 0px;
+     text-align: center;
+}
+
+nav li {
+     display: inline-block;
+     list-style: none;
+     border: 2px black dashed;
+     padding: 1.5em;
+     margin-right: 20px;
+
+}
+
+h1 {
+     font-size: 4rem;
+     margin: 100px 0px;
+     text-align: center;
+}
+
+footer {
+     margin-top: 200px;
+     text-decoration: underline;
+     text-align: center;
+}
+
+table {
+     width: 500px;
+     margin: 0 auto;
+     min-height: 200px;
+}
+
+th {
+     border-bottom: 2px solid;
+     padding: 10px;
+}
+
+tr {
+     text-align: center;
+}
+
+form {
+     width: 100px;
+     display: flex;
+     margin-left: 375px;
+}
+
+form li {
+     list-style: none;
+     padding: 20px;
+}
+
+form p {
+     padding: 0px;
+     margin: 0px;
+}
+
