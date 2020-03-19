@@ -1,9 +1,5 @@
 <?php
 require_once "lib/function.php";
-
-
-if (isset($_POST['addTaskButton'])) {
-
 ?>
 
 
