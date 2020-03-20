@@ -43,6 +43,6 @@ function taskManager( $taakUrl ) {
           // var_dump( $row );
           echo '<tr><td>' . $row["taa_id"] . '</td>
                     <td>' . $row["taa_datum"] . '</td>
-                    <td>' . $row["taa_omschr"] . '</td>';
+                    <td>' . $row["taa_omschr"] . '</td></tr>';
      }
  }
