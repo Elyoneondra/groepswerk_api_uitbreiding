@@ -1,7 +1,7 @@
 <?php
 // functie om taken op te halen en weer te geven
 function taskManager( $taakUrl ) {
-     $url = "localhost/groepswerk/03/5/api/" . $taakUrl;
+     $url = "localhost/groepswerk/api/" . $taakUrl;
 
      $ch = curl_init();
      $headers = array();
